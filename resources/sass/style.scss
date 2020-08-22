@@ -1,0 +1,49 @@
+$colorBlack: #2c3e50;
+$colorWhite: #ffffff;
+$colorGrren: #1abc9c;
+
+body {
+    background-color: $colorGrren!important;
+}
+
+.navbar {
+    background-color: $colorBlack;
+
+
+    >div {
+        >a {
+            color: $colorWhite!important;
+        }
+        div{
+            ul {
+                li {
+                    >a {
+                        color: $colorWhite!important;
+                    }
+                    .active-border{
+                        padding: 0.5rem 1.5rem;
+                        border-radius: 5px;
+                        background-color: $colorGrren!important;
+                        color: $colorWhite!important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ullService{
+    display: none;
+}
+.acqService{
+    display: none;
+}
+.conversionService{
+    display: none;
+}
+.mnpService{
+    display: none;
+}
+.nipService{
+    display: none;
+}

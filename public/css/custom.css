@@ -1,0 +1,60 @@
+
+.radio-buttons label {
+    background-color: white;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    padding: .5rem 1rem;
+    margin: 10px auto;
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    transition: .5s;
+}
+
+.radio-buttons input:checked~label{
+   background-color:  #007bff;
+   color: white;
+}
+
+fieldset{
+  display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    width: 100%;
+    border-radius:4px;
+    margin:10px 0;
+}
+
+legend {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  padding: 0;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal;
+}
+
+#categories img{
+  width: 100%;
+  min-height: 250px;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+#categories .card {
+  border-radius: 0;
+}
+#categories .card a{
+  border: 3px solid transparent;
+}
